@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রশ্ন পেজ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>আপনি কি আমাদের সেবা নিয়ে সন্তুষ্ট?</h1>
+        
+        <div class="options">
+            <button id="yes">হ্যাঁ</button>
+            <button id="no" onmouseover="moveNoButton()">না</button>
+        </div>
+        
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closePopup()">&times;</span>
+                <h2>ধন্যবাদ!</h2>
+                <p>আপনার মতামতের জন্য ধন্যবাদ।</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
